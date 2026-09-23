@@ -1,0 +1,10 @@
+{
+  "name": "aya-nivoda-b2c-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Server-side Nivoda GraphQL gateway for AYA Fine Jewelry's custom diamond finder.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "dev": "node --watch src/server.js", "start": "node src/server.js" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^5.1.0" }
+}
